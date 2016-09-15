@@ -1,6 +1,6 @@
 TEMPLATE = lib
 CONFIG += staticlib warn_off
-DESTDIR = $$PWD/../../../lib
+DESTDIR = $$OUT_PWD/../../../../dist/lib
 
 !winrt {
     CONFIG(release, debug|release) {
