@@ -2,6 +2,7 @@ TEMPLATE = lib
 #CONFIG += staticlib
 DESTDIR = $$OUT_PWD/../../dist/lib
 DLLDESTDIR = $$OUT_PWD/../../dist/bin
+DEFINES += QT_NO_CAST_FROM_ASCII
 
 
 QT += quick multimedia
